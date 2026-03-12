@@ -4,9 +4,9 @@ let lengthText = document.getElementById("length-text")
 let volumeText = document.getElementById("volume-text")
 let massText = document.getElementById("mass-text")
 let inputValue = ""
-let baseStringLength = `0 mètre =  0 pied |  0 pied =  0 mètre`
-let baseStringVolume = `0 litre =  0 gallon |  0 gallons = 0 litre`
-let baseStringMass = `0 kilos = 0 livre | 0 livre = 0 kilos`
+let baseStringLength = `0 mètres =  0 pieds |  0 pieds =  0 mètres`
+let baseStringVolume = `0 litres =  0 gallons |  0 gallons = 0 litres`
+let baseStringMass = `0 kilos = 0 livres | 0 livres = 0 kilos`
 
 lengthText.textContent = baseStringLength
 volumeText.textContent = baseStringVolume
